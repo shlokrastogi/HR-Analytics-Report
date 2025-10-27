@@ -1,12 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
+
 h1 {
-    width: 100%;
     font-size: 3rem;
-    padding: 10px 2px 10px 10px;
+    padding: 10px;
     word-spacing: 10px;
     background-color: goldenrod;
     flex-wrap: wrap;
@@ -14,14 +15,14 @@ h1 {
 }
 
 .container {
-    width: 100%;
-    margin: 10px 20px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
 }
 
 .btn-group {
-    margin: 10px 0px 10px 0px;
+    width: 100%;
+    margin: 10px 0px 20px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,9 +49,9 @@ h1 {
 }
 
 table {
-    margin: 10px;
-    border: 2px solid black;
     width: 100%;
+    padding: 10px;
+    border: 2px solid black;
     border-collapse: collapse;
 }
 
@@ -66,6 +67,17 @@ table  th, table  td {
     }
     .btn {
         width: 100%;
-        margin: 10px auto;
+        margin: 5px auto;
+    }
+    .container {
+        margin: 5px 10px;
+    }
+    h1 {
+        padding: 7.5px;
+        font-size: 2rem;
+    }
+    table {
+        padding: 3px;
+        font-size: 0.9rem;
     }
 }
