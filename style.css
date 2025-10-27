@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 10px 2px 10px 10px;
+    word-spacing: 10px;
+    background-color: goldenrod;
+    flex-wrap: wrap;
+    
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-group {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    align-content: center;
+    cursor: pointer;
+    background-color: rgb(129, 23, 23);
+    
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 1.5px 1.5px black;
+}
+
+.btn:hover {
+    background-color: brown;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+table {
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table  th, table  td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
