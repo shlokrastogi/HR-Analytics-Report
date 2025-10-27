@@ -63,4 +63,8 @@ table  th, table  td {
     .btn-group {
         flex-direction: column;
     }
+    .btn {
+        width: 100%;
+        margin: 10px auto;
+    }
 }
