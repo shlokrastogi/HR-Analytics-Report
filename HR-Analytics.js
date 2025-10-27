@@ -118,7 +118,7 @@ fetch('data.json')
         totalExpenditure = document.createElement('h4');
         totalExpenditure.innerHTML = `Total Expenditure: ${sum}`;
         container.appendChild(totalExpenditure);
-        totalExpenditure.style.fontSize = '2rem';
+        totalExpenditure.style.fontSize = '1.5rem';
         totalExpenditure.style.margin = '20px auto';
         totalExpenditure.style.color = 'white';
         totalExpenditure.style.backgroundColor = 'black';

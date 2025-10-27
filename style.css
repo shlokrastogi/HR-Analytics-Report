@@ -80,4 +80,7 @@ table  th, table  td {
         padding: 3px;
         font-size: 0.9rem;
     }
+    .table-container {
+        overflow-x: scroll;
+    }
 }
